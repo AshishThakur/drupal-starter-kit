@@ -7,5 +7,3 @@ sites/*/private
 
 node_modules
 vendor
-
-composer.lock

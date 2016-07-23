@@ -4,7 +4,6 @@ var es = require('event-stream');
 var csslint = require('gulp-csslint');
 var sass = require('gulp-sass');
 var sasslint = require('gulp-sass-lint');
-var phplint = require('phplint').lint;
 var tap = require('gulp-tap');
 var execSync = require('sync-exec');
 var options = require('minimist')(process.argv.slice(2));

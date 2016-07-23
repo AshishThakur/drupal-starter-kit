@@ -73,7 +73,8 @@ gulp.task('php', function () {
       var report = execSync('./vendor/bin/phpcs --standard="./.phpcsrc.xml" ' + file.path);
       if (report.stdout.length > 0) {
         // Log report, and remove silly Code Sniffer 2.0 ad.
-        console.log(report.stdout.split('UPGRADE TO PHP_CODESNIFFER 2.0 TO FIX ERRORS AUTOMATICALLY')[0]);
+        //console.log(report.stdout.split('UPGRADE TO PHP_CODESNIFFER 2.0 TO FIX ERRORS AUTOMATICALLY')[0]);
+        console.log(report.stdout);
       }
   }));
 
